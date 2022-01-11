@@ -1,0 +1,34 @@
+.list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.good {
+  background-color: #8f8;
+  &:hover,
+  &:focus {
+    background-color: #4f4;
+  }
+}
+.neutral {
+  background-color: #ff8;
+  &:hover,
+  &:focus {
+    background-color: #ff0;
+  }
+}
+.bad {
+  background-color: #f88;
+  &:hover,
+  &:focus {
+    background-color: #f66;
+  }
+}
